@@ -16,7 +16,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     @IBOutlet var tableView: UITableView!
     
-    var tableData = ["Array<String>()1", "Array<String>()2", "Array<String>()3", "Array<String>()4"]
+    var tableData = ["Array<String>()1", "Array<String>()2", "Array<String>()3"]
     
     static let itemClicked = Notification.Name("ItemClicked")
     
